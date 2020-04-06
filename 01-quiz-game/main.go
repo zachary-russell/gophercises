@@ -13,7 +13,8 @@ import (
 func main() {
 	input := flag.String("file", "foo.csv", "CSV to Input")
 	flag.Parse()
-	csvfile, err := os.Open(*input)
+	csvfile, err := os:wq
+	.Open(*input)
 	if err != nil {
 		log.Fatal(err)
 	}
